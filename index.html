@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bod form</title>
+    <style>
+         .div1
+        {
+            font-size: 35px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 20px;
+        } 
+        .div2
+        {
+            font-size: 20px;
+            text-transform: capitalize;
+            text-align: center;
+            margin: 2% 0px;
+        }
+        .td1{
+            background-color: orange;
+            color: white;
+            margin-left: 10%;
+        }
+        .div_man
+        {
+            margin: 5% 10% 0% 10%; 
+        }
+        .text_man{
+            width: 100%;
+            height: 35px;
+            text-transform: uppercase;
+            border-width: 0px;
+            margin-bottom: 2%
+        }
+        .td2{
+            background-color: indigo;
+        }
+        .checkbox
+        {
+            width: 40px;
+            height: 40px;
+        }
+        .td_1{
+            background-color: wheat;
+        }
+        .my_btn
+        {
+            background-color: crimson;
+            padding: auto;
+            color: azure;
+            width: 30%; 
+            height: 35px;
+            border-width: 0px;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            margin-bottom: 2%;
+            text-transform: uppercase;
+        }
+        .my_btn:hover{
+            color: crimson;
+            background-color: aqua;
+        }
+    </style> 
+</head>
+<body>
+    <table border="0px" align="center" width="50%" style="color: white;" cellpadding="0" cellspacing="0">
+       <tr>
+        <td class="td1" style="width:50%">
+            <div class="div1">
+                Best Offer in Digital Maeketing.
+            </div>
+            <div class="div2">
+                Looking for the best offer in Digital Marketing.
+            </div>
+            <div class="div_man">
+                <input type="text" placeholder="name" class="text_man">
+            </div>
+        </td>
+        <td rowspan="2" style="width: 35%;">
+            <img src="assets/gallery/GIRL (2).jpeg" style="width:100%;height:130%;">
+        </td>
+       </tr>
+       <tr>
+        <td class="td2">
+            <div class="div_man">
+                <input type="text" placeholder="Contact Number" class="text_man">
+            </div>
+            <div class="div_man">
+                <input type="text" placeholder="E-mail" class="text_man">
+            </div>
+            <div class="div_man">
+                <textarea style="width: 100%;height: 80px;" placeholder="message"></textarea>
+            </div>
+            <div class="div_man">
+                <table border="0px" style="width:90%;height:55px;" cellspacing="0">
+                    <tr>
+                        <td class="td_1">
+                            <input type="checkbox" class="checkbox">
+                        </td>
+                        <td class="td_1">
+                            <img src="assets/gallery/captcha.jpeg" style="width: 100%;">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="div_man">
+                <input type="submit" value="Submit" class="my_btn">
+            </div>
+        </td>
+       </tr>
+    </table>
+</body>
+</html>
